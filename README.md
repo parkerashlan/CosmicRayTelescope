@@ -1,2 +1,4 @@
-# CosmicRayTelescope
-Cosmic Ray Detector using two SiPM pucks, a detector, and a Raspberry Pi Zero
+# Cosmic Ray Telescope
+Cosmic Ray Detector using two scintillating pucks, a custom motherboard, and a Raspberry Pi Zero. The goal of this project was to find the energy of the cosmic rays which passed through the detector based on the voltage output by the circuit. Unfortunately, this project was cut short due to COVID-19 after electrical issues appeared with no way to debug them.
+
+The idea behind the project was that the muon would pass through the two scintillating pucks which had a silicon photomultiplier attached to the side of it and produce a voltage output from the circuit. Using this voltage output as a way to detect if a muon had passed through, I could count the amount of muons which were detected. I utilized two pucks to isolate the angle from which the muons were detected and confirm that the detection was a particle and not just reflected photons within the puck.
